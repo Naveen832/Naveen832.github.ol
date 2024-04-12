@@ -1,0 +1,170 @@
+1)how you plan automation for a project..?
+
+Ans:1)Product analysis. Before starting the testing, you need to thoroughly study the software and learn everything you can. ...
+2)Test strategy implementation. ...
+3)Defining test objective. ...
+4)Setting test criteria. ...
+5)Resource planning. ...
+6)Creating the test cases. ...
+7)Planning testing environment. ...
+8)Scheduling and estimation.
+Discover, Design, Automate, and Improve your processes
+
+__________________________________________________________________________________________________________________________________________________________
+2)how u decide project feasibility for automation?
+
+Identify the scope of automation: What processes or tasks will be automated?
+Estimate the potential cost savings of automation: How much can be saved by automating the process?
+Assess the complexity of the task: Is the process simple or complex?
+Determine the availability of data: What data is available to support automation?
+Evaluate the current infrastructure: Is the current infrastructure able to support automation?
+Analyze the impact of automation: How will automation affect existing processes and personnel?
+Estimate the return on investment: What is the expected return on investment?
+Develop a timeline: What is the expected timeline for automation?
+Identify potential risks: What risks are associated with automation?
+Assess the potential for scalability: Is there potential for scalability with automation?
+___________________________________________________________________________________________________________________________________________________________
+
+3)what is ROI for automation?
+
+Test automation return on investment (ROI) looks at the value gained from automating software testing processes compared to the costs incurred implementing and maintaining the automation framework and test scripts. A positive ROI indicates that test automation provides value to your organization.
+
+Basically, return on investment (ROI) tells you how much money you've made (or lost) on an investment or project after accounting for its cost.
+
+ROI is a financial metric that compares the benefits and costs of a project or initiative. It is usually expressed as a percentage or ratio that indicates how much profit or value is generated for every dollar spent. For example, if a project costs $10,000 and generates $15,000 in benefits, the ROI is 50% or 1.5.
+____________________________________________________________________________________________________________________________________________________________
+4)when u start ur automation in ur project in agile ..is it after getting build u start smoke manual and automation parallel ?
+
+In Agile projects, automation is typically integrated into the development process from the beginning. Rather than waiting until after a build is complete to start automation, Agile teams often work on both manual testing and automation simultaneously throughout the development cycle.
+
+Here's how it generally works:
+
+Automation Strategy Planning: At the beginning of the project or sprint, the team plans which tests will be automated and which will be performed manually. They also decide on the tools and frameworks to use for automation.
+
+Parallel Work: As development progresses, both manual and automated tests are carried out concurrently. Manual testing might include exploratory testing, usability testing, and ad-hoc testing, while automation focuses on repetitive and regression testing tasks.
+
+Continuous Integration and Continuous Testing: With Agile practices, there's often a continuous integration (CI) process in place, where code changes are integrated frequently into a shared repository and automated builds are triggered. Automated tests, including smoke tests, regression tests, and other automated checks, are run as part of this CI process.
+
+Feedback Loops: Test results from both manual and automated tests provide feedback to the development team. Issues found during manual testing might trigger updates to automated tests to prevent regressions in the future.
+
+Iterative Improvement: Agile emphasizes continuous improvement, so as the project progresses, the automation suite evolves. New tests are added, existing tests are refined, and the automation infrastructure is optimized for efficiency and effectiveness.
+
+So, rather than waiting for a build to be complete before starting automation, Agile teams integrate automation into their development workflow from the outset, allowing for faster feedback loops and more efficient testing processes.
+____________________________________________________________________________________________________________________________________________________________
+5)what u decided in retrospective for automation any recent thought u shared?
+
+In a retrospective meeting focused on automation, recent thoughts might revolve around improving the effectiveness, efficiency, and coverage of automated tests. Here are some potential discussion points and recent thoughts that might arise:
+
+Test Coverage: Are the automated tests covering critical functionalities adequately? Are there gaps in test coverage that need to be addressed in upcoming sprints?
+
+Test Maintenance: How sustainable is the current automation suite? Are there tests that are flaky or require frequent updates due to changes in the application? Is there a need to refactor or optimize existing automated tests?
+
+Tooling and Frameworks: Are the tools and frameworks being used for automation still the best choice for the project? Are there new tools or technologies that could improve efficiency or provide additional capabilities?
+
+Parallel Execution: Is there room for improvement in parallelizing automated tests to reduce overall testing time? Are there infrastructure constraints that need to be addressed to enable parallel execution?
+
+Integration with CI/CD: How well is automation integrated into the continuous integration/continuous delivery (CI/CD) pipeline? Are there opportunities to streamline the automation process further and improve feedback loops?
+
+Skills and Training: Are team members equipped with the necessary skills and knowledge to maintain and expand the automation suite effectively? Is there a need for additional training or upskilling in automation tools and practices?
+
+Feedback Mechanisms: How are test results and automation-related issues communicated within the team? Are there improvements needed in the feedback mechanisms to ensure timely resolution of automation-related issues?
+
+Future Goals: What are the long-term goals for automation within the project? Are there opportunities to further increase automation coverage or optimize testing processes to support the project's objectives?
+
+In summary, recent thoughts shared in a retrospective meeting focused on automation would likely center around optimizing test coverage, improving test maintenance processes, evaluating tooling and frameworks, enhancing parallel execution, strengthening integration with CI/CD pipelines, addressing skills and training needs, refining feedback mechanisms, and setting future goals for automation within the project.
+
+_________________________________________________________________________________________________________________________________________________________
+
+how you automate only failed TCs in framework?
+
+To rerun failed test runs automatically during the test run itself, we implement IRetryAnalyzer interface provided by TestNG. By overriding retry() method of the interface in your class, you can control the number of attempts to rerun a failed test case.
+
+How to automate failed test cases using selenium?
+After the first run of an automated test run. Right click on Project – Click on Refresh.
+A folder will be generated named “test-output” folder. Inside “test-output” folder, you could find “testng-failed. xml”.
+Run “testng-failed. xml” to execute the failed test cases again.
+____________________________________________________________________________________________________________________________________________
+
+
+what is the criteria where client dnt consider automation in project?
+
+
+There could be various reasons why a client might choose not to consider automation in a project. Here are some common criteria or situations where automation might not be pursued:
+
+Limited Budget: If the client has a limited budget for the project, they may prioritize manual testing over automation due to the initial investment required for setting up automation infrastructure, tools, and frameworks.
+
+Short Project Duration: For projects with a short duration or tight deadlines, there might not be enough time to develop and maintain automated test suites effectively. In such cases, clients may opt for manual testing to expedite the testing process.
+
+Uncertain Requirements: When project requirements are volatile or unclear, investing in automation might not be practical as automated tests could become obsolete or require frequent updates. Clients may prefer manual testing to accommodate changes more easily.
+
+Limited Test Coverage: If the application under test has limited functionality or is expected to undergo significant changes in the future, clients may question the value of automation, especially if the test coverage is low or the ROI of automation is not justified.
+
+Lack of Technical Expertise: Clients may lack the necessary technical expertise or resources to implement and maintain automated testing solutions. In such cases, they may prefer manual testing, which can be performed by testers without extensive programming or automation skills.
+
+Complexity of Application: Some applications, particularly those with complex user interfaces or intricate business logic, may not be well-suited for automation. Automation tools may struggle to accurately simulate user interactions or verify complex workflows, leading clients to rely on manual testing for better coverage and accuracy.
+
+Preference for Human Judgment: In certain industries or contexts, clients may value the human judgment and intuition provided by manual testers over the automated checks. They may believe that manual testing can uncover subtle issues or usability concerns that automated tests might miss.
+
+Regulatory or Compliance Requirements: In highly regulated industries where manual testing is mandated for compliance reasons, clients may be reluctant to invest in automation that does not align with regulatory standards or requirements.
+
+Previous Negative Experience: If the client has had a negative experience with automation in the past, such as failed automation initiatives or high maintenance overhead, they may be hesitant to consider automation again and prefer to stick with manual testing.
+
+Overall, the decision whether or not to consider automation in a project depends on various factors such as budget, project duration, requirements stability, technical expertise, application complexity, regulatory constraints, and past experiences. Clients should carefully evaluate these factors and weigh the benefits and drawbacks of automation before making a decision.
+
+
+
+
+
+______________________________________________________________________________________________________________________________________
+how many TCc manual and automation u do in daily basis?
+
+
+You can easily automate 5-6 test cases (with limited complexity) each day. On the other hand, you can automate only 1-2 complex test cases in the same time.
+
+We can run around 30-55 test cases per day.
+____________________________________________________________________________________________________________________________________________________________
+
+how you design ur framework..what are the keypoints you keep on choosing the framework?
+
+Designing a testing framework involves several key considerations to ensure that it meets the requirements of the project and facilitates efficient and effective test automation. Here are some key points to consider when choosing and designing a testing framework:
+
+Project Requirements: Understand the specific requirements of the project, including the technology stack, application architecture, testing objectives, and constraints. The framework should be tailored to meet these requirements effectively.
+
+Scalability: Choose a framework that can scale with the project as it grows in size and complexity. The framework should be able to handle a large number of test cases, support parallel execution, and integrate seamlessly with other tools and systems.
+
+Flexibility and Extensibility: Look for a framework that is flexible and extensible, allowing for easy customization and adaptation to changing requirements. The framework should support various testing types (e.g., functional, regression, integration) and accommodate different testing approaches (e.g., keyword-driven, data-driven, behavior-driven).
+
+Modularity: Design the framework with a modular architecture that promotes reusability and maintainability. Break down test cases into smaller, independent modules or components that can be easily managed, updated, and reused across different tests.
+
+Support for Multiple Environments and Platforms: Ensure that the framework supports testing across multiple environments (e.g., different browsers, operating systems, devices) and platforms (e.g., web, mobile, desktop). This ensures comprehensive test coverage and compatibility with the target deployment environments.
+
+Integration with CI/CD Pipeline: Choose a framework that integrates seamlessly with continuous integration/continuous deployment (CI/CD) pipelines to automate the testing process and provide rapid feedback on code changes. The framework should support automated build triggers, test execution, and reporting within the CI/CD workflow.
+
+Reporting and Analysis: Select a framework that provides comprehensive reporting and analysis capabilities to track test results, identify issues, and analyze test coverage. The framework should generate clear and actionable reports that help stakeholders make informed decisions about the quality of the software.
+
+Community and Support: Consider the size and activity of the framework's community, as well as the availability of documentation, tutorials, and support resources. A vibrant community can provide valuable insights, best practices, and support for troubleshooting issues.
+
+Technology Stack: Choose a framework that aligns with the technology stack and programming languages used in the project. This ensures compatibility with existing codebases, tools, and skillsets within the team.
+
+Cost and Licensing: Evaluate the cost and licensing implications of the framework, including any upfront fees, ongoing maintenance costs, and licensing restrictions. Choose a framework that offers a favorable cost-benefit ratio and aligns with the project budget.
+
+By considering these key points when choosing and designing a testing framework, you can create a robust and scalable automation solution that meets the needs of the project and maximizes the efficiency and effectiveness of test automation efforts.
+
+
+Streghts:
+
+My greatest strength is my passion for continuous learning,I enjoy exploring and learning every aspect of the software,“I’d say it’s my ability to work well with others. I have always enjoyed working as part of a team and find that my collaborative nature is one of my strongest professional attributes. In my last role as a project leader, I was able to meet all deadlines and deliverables by improving team collaboration via new processes and software.  I am confident that I can bring this strength to your team and contribute to building a positive, collaborative work environment.”“My greatest strength is my problem-solving skills. I pride myself on being able to quickly and efficiently analyze and solve complex problems by considering different perspective
+Additionally, I am also a confident communicator, able to effectively convey my ideas and insights to both senior executives and junior team members
+
+What Are Your Weaknesses?
+I concentrated a lot small details and I fear public speaking but I m making effects to overcome it and I joined a one club for practicing
+I enjoy developing a relationship with my coworkers by engaging in conversation, and that's a great team-building skill. However, I have a habit of carrying on a conversation to a point where it may distract other coworkers. I have learned since then that there are other ways to connect with my coworkers, and that if I'm asking about their day, I need to keep it brief and redirect myself back to my work."
+
+I want to be financial independent I want to learn new skills for related my job than I want to reach a good position in the company and I also want to help company growth.
+
+
+
+
+
+
+
