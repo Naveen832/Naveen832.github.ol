@@ -1,4 +1,4 @@
-1. Selenium Webdriver and other browser driver classes(chromedriver, gecko driver, etc)
+1.Selenium Webdriver and other browser driver classes(chromedriver, gecko driver, etc)
 
 SELENIUM WEBDRIVER : Selenium WebDriver is a powerful tool for automating web browsers and testing web applications. It provides a programming interface (API) that allows you to interact with web elements and perform actions such as clicking, typing, and navigating. WebDriver supports multiple web browsers, and each browser requires a specific driver to communicate with Selenium.
 
@@ -465,6 +465,10 @@ Webelement e = driver.findElement(By.id("sfr"));
 
 js.executeScript("arguments[0].setAttribute('value',"naveenkumar")",e);
 
+
+executor.executeScript("document.getElementById("textbox_id").value='new value';);
+
+
 //Retrive the user entered text in the webelemtn
 
 
@@ -768,7 +772,8 @@ file is unit to store some infomation in our operation system
 Page object model:
 __________________
 page object model also known as POM,is a design pattern in selenium taht created object repository for storing web elements.it is useful for reducing code duplication and imporve the test case maintance.
-  to simplify in the page object framework we crete class file for each web page,this class file consists of different web elemtns present in the web page,morevoer test scripts then use the elemetns to perform the different actions.
+
+  To simplify in the page object framework we crete class file for each web page,this class file consists of different web elemtns present in the web page,morevoer test scripts then use the elemetns to perform the different actions.
 
 Advantages:
 _________
@@ -779,56 +784,4 @@ makes code reusable
 
 Compatibility testing: is a type of testing that examines and compares functionality over multiple browsers, devices, platforms, and OS to recognize potential discrepancies. Performing compatibility testing verifies that your product/software works efficiently in its intended environments.
 
-
-Test case:
-_________
-Test case are sets of actoions that are executed particular feature or functionality of the software apllication.its consists of test data,test steps,preconditons and post conditoins that are developed for spectfic test sceanrio to verify any requirment.
--->Test cases are derived from the test scenarios
--->it helps the exhasutive for testing 
---> test cases include test steps and test data,expected outcome for the testing.
--->These are low level actions and require more time adn resournce for execution. 
-
-Test Sceanrio:
-______________
-A test scenario is colective set of test cases that helps the teting team determine the postive and negative features of the project.
-
-
---> it provides hight level description of what has to be tested
--->is is defined as linear statemrnt
--->it is a useful exerise for the saving time
-->it is detailed doc that covers end end functionality of a software apllication.
-
-
-
-
-Test Plan:
-__________
-
-A test plan is a detailed document which describes software testing areas and activities. It outlines the test strategy, objectives, test schedule, required resources (human resources, software, and hardware), test estimation and test deliverables.
-
-The test plan is a base of every software's testing. It is the most crucial activity which ensures availability of all the lists of planned activities in an appropriate sequence.
-
-The test plan is a template for conducting software testing activities as a defined process that is fully monitored and controlled by the testing manager. The test plan is prepared by the Test Lead (60%), Test Manager(20%), and by the test engineer(20%).
-
-1)it is defined project level
-2)plan is action plan to achive vision
-3)test plan can change
-4)defines test approach at project level
-5)deals at project level test coverge,scheduling,testing scope,resourecs etc.
-6)for smaller oraganziaiton test streatagy can be part of the test plan
-
-Test Stretagy:
-______________
-
-
-1)A test strategy is a collection of recommendations that explain the test design and testing procedures.
-2)Important factors include – scope, formats, processes, tools, reporting, client communication, etc.
-3)It is composed by the project manager along with the business stakeholders
-
-1)it is defines organixzation level
-2)it is vision
-3)test streatagy doesnt change very frequently.
-4)defines genaral test apporach at oraganization level
-5)deals with test approach,ojectives,testing tools,reporting at org level
-6)for big org test streatagy defined as sepratly & test plans use deatials from test streatagy and details  it is per project.
  
