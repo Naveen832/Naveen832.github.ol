@@ -1,0 +1,18 @@
+Test Plan:
+__________
+1)it is defined project level
+2)plan is action plan to achive vision
+3)test plan can change
+4)defines test approach at project level
+5)deals at project level test coverge,scheduling,testing scope,resourecs etc.
+6)for smaller oraganziaiton test streatagy can be part of the test plan
+
+Test Stretagy:
+______________
+
+1)it is defines organixzation level
+2)it is vision
+3)test streatagy doesnt change very frequently.
+4)defines genaral test apporach at oraganization level
+5)deals with test approach,ojectives,testing tools,reporting at org level
+6)for big org test streatagy defined as sepratly & test plans use deatials from test streatagy and details  it is per project.

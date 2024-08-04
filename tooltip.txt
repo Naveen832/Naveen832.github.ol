@@ -1,0 +1,123 @@
+tooltip
+
+automation framework
+
+select
+
+== vs .equal
+
+java8 vs java11 vs java21
+
+assertion
+
+hard assertion vs soft assertion
+
+git 
+
+action class
+
+access modifiers
+
+getWindowHandles
+
+lamda expressions
+
+why string is non primitive
+
+verify vs assert
+
+frames
+
+regression testing in diff questions
+
+signoff time if we have a defect but it is not impact
+
+implicit wait explicit wait
+
+sprint retrospective
+
+test plan vs test strategy
+
+bdd framework 
+
+arraylist hashmap hashset
+
+serilizaztion vs deserilization
+
+final 
+
+I want run same test case with 50 times in cucumber framework
+
+iterator
+
+how to get the dulicate elements in the webpage using the suing getwindowhandles and switching the next window and perform the actions and get the duplicate elemtns 
+
+list and set
+
+abstract, interface
+
+for(int i=0;i<a.length;i++)
+
+for(int i=0;i<=a.lenth-1;i++)
+
+dataprovider
+
+stlc
+
+smoke sanity
+
+test plan test strategy
+
+RTM
+
+Boundary value analysis
+
+ regression 
+
+system testing ,end to end testing
+
+rtm
+
+
+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
+
+test case and test scenario
+
+defect bug
+
+string buffer vs string string builder
+
+alert
+
+maximize the window
+
+scenario scenario outline
+
+tags
+
+iterator
+
+agile scrum master
+
+deferred
+
+retesting
+
+array vs arraylist
+
+http vs http
+
+add to index 
+
+commit the code into git hub
+
+1)clone to the githubrepository
+2)create a git project in GitHub
+ Successfully added to the project
+3)we need to change our project to shared project
+4)
+
+
+
+
+

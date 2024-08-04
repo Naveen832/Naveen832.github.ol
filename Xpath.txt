@@ -1,0 +1,12 @@
+//td[text()='Maria Anders']/preceding::td/child::input[@type='checkbox']
+
+
+//input[@maxlength=10]//following::input[@maxlength=15]
+(//td[text()='Yoshi Tannamuri']//preceding::td/child::input[@type='checkbox'])[5]
+
+
+//td[text()='Yoshi Tannamuri'] --> //td[.='Yoshi Tannamuri']
+
+//div[@class='container']//child::h1--->//div[@class='continer']/h1 -->child shortcut
+//div[@class='container']//parent::div------>//div[@class='container']/.. -->parent shortcut
+//table[@id='contains']//decendent::td---->//table[@id='contains']//td -->decendet shortcut

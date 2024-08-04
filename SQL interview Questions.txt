@@ -1,0 +1,12 @@
+find the 2nd largest salary of an employee?
+
+
+1)select max(salary) from empl where salary not in (select max(salary) from empl);
+
+2)select max(salary) from empl where salary < (select max(salary) from empl);
+
+find the 3rd largest salary of an employee?
+
+1)select max(salary) from empl where salary not in (select max(salary) from empl where salary not in(select max(salary) from empl1));
+
+2)select max(salary) from empl where salary < (select max(salary) from empl where salary < (select max(salary) from emp1));

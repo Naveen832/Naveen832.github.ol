@@ -1,0 +1,63 @@
+select * from employees where firstname name='Vikas';
+select * from employee where firstname like 'a%';
+select * from emploiyee where fristname like '%a';
+select upper(firstname) as name from empluees;
+select firstnmae+' '+lastname AS full name from employyes;
+select * from employyes where firstname like '%k%';
+select * from Employees where firstnma like '[a-p]%';
+select * from employees where firstname like '%[a-p]';
+select * from employees where firstname like '[^a-p]%';
+select * from employyes where firstname like '__le';
+select * from employees where firstname like 'A____';
+select * from employees where firstname like '%[%]%';
+select distinct(department),firstname from employees;
+select max(salary) from employuee;
+select min(salary) from emplouyees;
+
+select convert(varchar(20),joiningdate,106) from employees; "15 Feb 2023"
+select convert(varchar(20),joiningdate,111) from employees;  "12/3/2023"
+select convert(VARCHAR(20),joiningdate,106) from employees;
+select DATEPART(Mmonth,joingdate0 from employees; getting only month in table
+select datepart(year,jpinigdate) from employees;getting only years in the table
+select getdate(); GETTING SYSTEM DATE ONLY
+select GETUTCDATE(); GETTING UTC DATE ONLY
+
+SELECT FIRSTNAME,GETDATE() as CURRENTDATE,JOINING DATE,DATEDIFF(MM,GETDATE(),JOINIGDATE) as Totalmonths from employees;
+selct * from employees where datepart(yyyy,joiningDate)='2013';
+select * from employees where datepart(MM,joinigdate)='2';
+select * from employee where joingdate between '12-02-2012' AND '23-03-2013';
+select count(*) from employees;
+
+select TOP 1 * from employees;
+select * from employees where firstname IN('affef','rtrrt','etrt');
+select * from employees where firstname NoT IN('rwrwr','rtt','rtert');
+
+select RTRIM(fridtname) as full name from employee; removing spaces from right side
+ 
+select LTRIM(fristname) as Full name from employee; rempvinf spaces feom left side
+
+select fristname,case when gender='MALE' then 'M' when gender='FEMALE' then 'F' end from employees;
+
+select "Hello"+firstname where employees;
+
+select * from employeees where salary > 60000;
+select *  from employees where slary <50000;
+
+select * from employees where salary between 2000 and 3000;
+select * from employees where salary betwen 3434340 in 2133;
+
+
+
+
+ 
+
+ 	
+
+
+
+
+
+
+
+
+
